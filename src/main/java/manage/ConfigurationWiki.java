@@ -15,13 +15,13 @@ public class ConfigurationWiki {
     @BeforeSuite
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities= new DesiredCapabilities();
-        capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "qa_new");
-        capabilities.setCapability("platformVersion","8.1");
+        capabilities.setCapability("deviceName","Qa");
+        capabilities.setCapability("platformName","Android");
+        capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("appPackage", "org.wikipedia");
-        capabilities.setCapability("appActivities", ".main.MainActivity");
-
+        capabilities.setCapability("appActivitie", ".main.MainActivity");
         capabilities.setCapability("automationName", "Appium");
+
         capabilities.setCapability("automationName", "UiAutomator1");
         capabilities.setCapability("app","C:\\Users\\evnik\\Downloads\\wiki.apk");
         driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
