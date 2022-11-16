@@ -23,13 +23,22 @@ public class LoginScreen extends BaseScreen{
 
     public MainScreen fillInLofinForm(User user) {
         type(userName, user.getUserName());
-        should(userName, 40);
+        should(userName, 50);
         toggleButton.click();
-        password.click();
-        Actions action = new Actions(driver);
-        action.sendKeys(user.getPassword()).perform();
+        type(password,user.getPassword());
         should(logButton,30);
         logButton.click();
         return new MainScreen(driver);
     }
+
+    public MainScreen fillInLofinForm2(String login,String pwd) {
+        type(userName, login);
+        should(userName, 40);
+        toggleButton.click();
+        type(password,pwd);
+        should(logButton,30);
+        logButton.click();
+        return new MainScreen(driver);
+    }
+
 }
