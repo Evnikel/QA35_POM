@@ -1,0 +1,66 @@
+19:54:14.767  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:54:15.363  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:54:15.963  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:54:16.221  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:54:17.128  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/explore_overflow_account_name']
+19:54:17.605  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/explore_overflow_account_name']
+19:54:19.676  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:20.061  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:24.352  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:24.475  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:34.116  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:34.188  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:39.774  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:40.291  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:54:40.519  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/text_input_password_toggle']
+19:54:40.611  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/text_input_password_toggle']
+19:54:41.118  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_password_input']
+19:54:41.651  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_password_input']
+19:54:42.376  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_password_input']
+19:54:42.831  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_password_input']
+19:54:47.484  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_password_input']
+19:54:47.622  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_password_input']
+19:55:02.997  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_button']
+19:55:03.496  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_button']
+19:55:03.715  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_button']
+19:55:03.834  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_button']
+19:55:04.365  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:04.712  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:04.739  INFO  manage.AppiumListener - You have a problem with---An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Users\evnik\Downloads\wi..., appActivitie: .main.MainActivity, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia, appWaitActivity: org.wikipedia.main.MainActi..., appWaitPackage: org.wikipedia, automationName: UiAutomator1, databaseEnabled: false, desired: {app: C:\Users\evnik\Downloads\wi..., appActivitie: .main.MainActivity, appPackage: org.wikipedia, automationName: UiAutomator1, deviceName: Qa, platformName: android, platformVersion: 8.0}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 900580a5-0d3b-4f9f-aac8-20bd8588d87d
+*** Element info: {Using=xpath, value=//*[@resource-id='org.wikipedia:id/menu_overflow_button']}[Ljava.lang.StackTraceElement;@4bc59b27
+19:55:07.824  INFO  manage.AppiumListener - Screen with error--src\test\resources\Screen\screenshot3307.png
+19:55:08.369  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:08.524  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:08.709  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:09.029  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:20.705  INFO  manage.AppiumListener - You have a problem with---UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Users\evnik\Downloads\wi..., appActivitie: .main.MainActivity, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia, appWaitActivity: org.wikipedia.main.MainActi..., appWaitPackage: org.wikipedia, automationName: UiAutomator1, databaseEnabled: false, desired: {app: C:\Users\evnik\Downloads\wi..., appActivitie: .main.MainActivity, appPackage: org.wikipedia, automationName: UiAutomator1, deviceName: Qa, platformName: android, platformVersion: 8.0}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 900580a5-0d3b-4f9f-aac8-20bd8588d87d[Ljava.lang.StackTraceElement;@67332b1e
+19:55:24.092  INFO  manage.AppiumListener - Screen with error--src\test\resources\Screen\screenshot3324.png
+19:55:24.162  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:24.535  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:24.763  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:24.903  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/menu_overflow_button']
+19:55:25.521  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/explore_overflow_account_name']
+19:55:26.024  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/explore_overflow_account_name']
+19:55:29.268  INFO  manage.AppiumListener -  Starts find element--By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:55:29.562  INFO  manage.AppiumListener - The element was found---By.xpath: //*[@resource-id='org.wikipedia:id/login_username_text']
+19:55:29.562  INFO  manage.AppiumListener - You have a problem with---An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Users\evnik\Downloads\wi..., appActivitie: .main.MainActivity, appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia, appWaitActivity: org.wikipedia.main.MainActi..., appWaitPackage: org.wikipedia, automationName: UiAutomator1, databaseEnabled: false, desired: {app: C:\Users\evnik\Downloads\wi..., appActivitie: .main.MainActivity, appPackage: org.wikipedia, automationName: UiAutomator1, deviceName: Qa, platformName: android, platformVersion: 8.0}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 900580a5-0d3b-4f9f-aac8-20bd8588d87d
+*** Element info: {Using=xpath, value=//*[@resource-id='org.wikipedia:id/login_username_text']}[Ljava.lang.StackTraceElement;@422ad5e2
+19:55:32.109  INFO  manage.AppiumListener - Screen with error--src\test\resources\Screen\screenshot3332.png

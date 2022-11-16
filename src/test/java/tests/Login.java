@@ -1,6 +1,7 @@
 package tests;
 
 import manage.ConfigurationWiki;
+import manage.DataProviderWiki;
 import model.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -23,19 +24,35 @@ public class Login extends ConfigurationWiki {
 
     }
 
-    @Test
-    public void login2(){
-        String inf= new MainScreen(driver)
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderWiki.class)
+    public void login2( User user) {
+        String inf = new MainScreen(driver)
                 .clickOnFlowButton()
                 .clickOnLoginButton()
-                .fillInLofinForm(User.builder().userName("Evaa1234").password("Eva1234$@").build())
+                .fillInLofinForm(user)
                 .clickOnFlowButton()
                 .logOut()
                 .clickOnFlowButton()
                 .getInf();
 
-        Assert.assertEquals(inf,"Log in to Wikipedia");
+        Assert.assertEquals(inf, "Log in to Wikipedia");
     }
+
+    @Test(dataProvider = "loginDataCsv", dataProviderClass = DataProviderWiki.class)
+    public void login6( User user) {
+        String inf = new MainScreen(driver)
+                .clickOnFlowButton()
+                .clickOnLoginButton()
+                .fillInLofinForm(user)
+                .clickOnFlowButton()
+                .logOut()
+                .clickOnFlowButton()
+                .getInf();
+
+        Assert.assertEquals(inf, "Log in to Wikipedia");
+    }
+
+
 
     @Test
     public void login3() {
@@ -64,7 +81,7 @@ public class Login extends ConfigurationWiki {
 
     @Test
     public void login5() {
-        User user = User.builder().userName("juliakliot.jk").password("Misha240613").build();
+        User user = User.builder().userName("Evaa1234").password("Eva1234$@").build();
         String logOut = new MainScreen(driver)
                 .clickOnFlowButton()
                 .clickOnLoginButton()
