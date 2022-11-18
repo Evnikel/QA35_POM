@@ -11,6 +11,7 @@ public class Login extends ConfigurationWiki {
 
     @Test
     public void login1(){
+        logger.info("Starts login without logout---");
         User user = User.builder().userName("Evaa1234").password("Eva1234$@").build();
 
         boolean isLogged = new  MainScreen(driver)
@@ -26,6 +27,7 @@ public class Login extends ConfigurationWiki {
 
     @Test(dataProvider = "loginData", dataProviderClass = DataProviderWiki.class)
     public void login2( User user) {
+        logger.info("Starts login with model---");
         String inf = new MainScreen(driver)
                 .clickOnFlowButton()
                 .clickOnLoginButton()
@@ -56,6 +58,7 @@ public class Login extends ConfigurationWiki {
 
     @Test
     public void login3() {
+        logger.info("Starts login without model---");
         new MainScreen(driver)
                 .clickOnFlowButton()
                 .clickOnLoginButton()
